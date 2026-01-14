@@ -1,0 +1,87 @@
+{
+  //Performance:
+  "editor.linkedEditing": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.guides.bracketPairs": true,
+  "editor.rulers": [88, 120],
+  "editor.renderWhitespace": "trailing",
+  "editor.wordWrap": "on",
+  "python.defaultInterpreterPath": "C:\\Users\\r_eli\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\cuadernos-ingenieria-kEk4CFNW-py3.10",
+
+  //General Style:
+  "editor.hover.delay": 1000,
+  "debug.inlineValues": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "indentRainbow.excludedLanguages": ["plaintext", "css"],
+
+  //Style:
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports.ruff": "explicit"
+    }
+  },
+
+  //AutoLisp:
+  "autolispext.debug.AttachProcess": "\"C:\\Program Files (x86)\\Nanosoft AS\\nanoCAD en 5.0\\nCad.exe\"",
+
+  //HTML:
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+
+  //Markdown:
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+
+  //Styles:
+  //Fonts:
+  "editor.fontFamily": "\"FiraCode Nerd Font Mono\"",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  //Themes:
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
+  "workbench.preferredHighContrastColorTheme": "One Dark Pro Darker",
+  "oneDarkPro.editorTheme": "One Dark Pro Darker",
+  //"editor.semanticHighlighting.enabled": false,
+
+  //Indent Rainbow:
+  // Using the light mode
+  "indentRainbow.indicatorStyle": "light",
+  // we use a simple 1 pixel wide line
+  "indentRainbow.lightIndicatorStyleLineWidth": 1,
+  // the same colors as above but more visible
+  "indentRainbow.colors": [
+    "rgba(127,255,127,0.3)",
+    "rgba(255,127,255,0.3)",
+    "rgba(79,236,236,0.3)",
+    "rgba(255,255,64,0.3)"
+  ],
+
+  //Terminal
+  "terminal.integrated.cwd": "${workspaceFolder}",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "python.terminal.activateEnvironment": true,
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "remote.autoForwardPortsSource": "hybrid",
+  "autoDocstring.docstringFormat": "numpy",
+  "jupyter.askForKernelRestart": false,
+  "jupyter.interactiveWindow.textEditor.executeSelection": true,
+  "svg.preview.mode": "svg",
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "python.analysis.typeCheckingMode": "strict",
+  "python.terminal.executeInFileDir": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "diffEditor.codeLens": true,
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1"
+}
